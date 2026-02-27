@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Basic Icons -->
+    <link
+      href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Filled Icons -->
+    <link
+      href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css"
+      rel="stylesheet"
+    />
+    <!-- Brand Icons -->
+    <link
+      href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="navbar1.css">
+  </head>
+  <body>
+    <nav class="sidebar">
+        <div class="sidebar-inner">
+            <header class="sidebar-header">
+                <button type="button" class="sidebar-burger" onClick="toggleSidebar()">
+                    <i class="bx bx-list"></i>
+                </button>
+                <img src="logo" alt="logo" class="sidebar-logo">
+            </header>
+            <nav class="sidebar-menu">
+                <button type="button">
+                    <i class="bx bx-home"></i>
+                    <span>Home</span>
+                </button>
+                <button type="button">
+                    <i class="bx bx-user"></i>
+                    <span>Accounts</span>
+                </button>
+                <button type="button" class="has-border">
+                    <i class="bx bx-cog"></i>
+                    <span>Settings</span>
+                </button>
+                <button type="button">
+                    <i class="bx bx-shape-circle"></i>
+                    <span>Blockchain</span>
+                </button>
+                <button type="button">
+                    <i class="bx bx-data"></i>
+                    <span>Databases</span>
+                </button>
+                <button type="button">
+                    <i class="bx bx-speaker"></i>
+                    <span>AudioVibe</span>
+                </button>
+                <button type="button" class="has-border">
+                    <i class="bx bx-music"></i>
+                    <span>Soundblast</span>
+                </button>
+                <button type="button">
+                    <i class="bx bx-folder"></i>
+                    <span>Folders</span>
+                </button>
+                <button type="button">
+                    <i class="bx bx-layer"></i>
+                    <span>Levels</span>
+                </button>
+                <button type="button">
+                    <i class="bx bx-lock"></i>
+                    <span>Security</span>
+                </button>
+            </nav>
+        </div>
+    </nav>
+    <script type="text/javascript">
+        const toggleSidebar = () => {
+            document.body.classList.toggle("open");
+        }
+    </script>
+  </body>
+</html>
